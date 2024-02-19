@@ -1,0 +1,498 @@
+body{
+    height: 2465px;
+}
+.font{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+*{
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/****************************************************************************************************/
+
+/* Margin */
+.margin{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+/* border */
+
+.border{
+    border: 0.5px solid transparent;
+}
+
+.border:hover{
+    border: 0.5px solid white;
+    border-radius: 4px;
+    border-width:100%;
+}
+/****************************************************************************************************/
+
+/* Amazon logo */
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    padding-bottom: 7px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+/****************************************************************************************************/
+
+/* location teller */
+
+.nav-address{
+    height: 50px;
+    width: 75px;
+}
+.next-line{
+    font-size: 0.4rem;  /* jugad */
+}
+.address-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.address-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+/****************************************************************************************************/
+
+/* search bar */
+
+.nav-search{
+    height: 50px;
+    width: 500px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    width: 50%;
+    height: 70%;
+}
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-color: #f3f3f3;
+    border-right: 1px solid rgb(189, 188, 188);
+}
+.search-select:hover{
+    background-color: #e2e2e2;
+}
+.search-input{
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgba(254, 193, 100, 0.9);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color: rgba(249, 178, 72, 0.9);
+}
+/****************************************************************************************************/
+
+/*  language */
+
+.language{
+    height: 50px;
+    width: 80px;
+}
+.lang-font{
+    font-size: 0.9rem;
+}
+.down-arrow{
+    margin-top: 10px;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #0f1111;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.language {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.language:hover .dropdown-content {display: block;}
+.language:hover .dropbtn {background-color: #0f1111;}
+/****************************************************************************************************/
+
+/* SignIn */
+
+.nav-sign{
+    height: 50px;
+    width: 120px;
+}
+.nav-upper{
+    font-size: 0.8rem;
+}
+.nav-lower{
+    display: flex;
+    align-items: center;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.signInPage{
+    text-decoration: none;
+    color: white;
+}
+
+/****************************************************************************************************/
+
+/* return & order */
+
+.nav-order{
+    height: 50px;
+    width: 60px;
+}
+.order{
+    text-decoration: none;
+    color: white;
+}
+
+/****************************************************************************************************/
+
+/* cart */
+
+.nav-cart{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-page{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/**********************************************SUB-PANAL*********************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+.panal{
+    background-color: #1e2a34;
+    height: 40px;
+    display: flex;
+}
+
+/* all-ancor */
+
+.panal-all{
+    height: 40px;
+    width: 70px;
+}
+.all{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* options */
+
+.panal-options{
+    width: 900px;
+    display: flex;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.panal-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+/* MAIN */
+
+.main{
+    height: 1920px;
+
+}
+    /* main-upper */
+    .main-upper{
+        height: 600px;
+        background-image: url("front_bg.jpg");
+        background-size: cover;
+    }
+        /* left & right shift */
+        .shift-container{
+            height: 250px;
+            width: 80px;
+            line-height: 5;
+            text-align: center;
+            position: relative;
+        }
+        .shift{
+            position: absolute;
+            color: #0f1111;
+            height: 100%;
+            width: 100%;
+            font-size: 3rem;
+            left: 0;
+        }
+        .right-shift{
+            position: absolute;
+            top: 100px;
+            right: 0px;
+        }
+        .left-shift{
+            top: 0px;
+            left: 0px;
+        }
+
+    /* main-lower */
+    .main-lower{
+        height: 1650px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #e3e6e696;
+        position: relative;
+        bottom: 350px;
+    }
+
+        /* Message */
+        .main-message{
+            margin-top: 20px;
+            padding: 0px 10px;
+            
+        }
+        .message{
+            height: 18px;
+            background-color: white;
+            padding: 10px 14px;
+            text-align: center;
+        }
+        .lower-links{
+            text-decoration: none;
+            color: #007185;
+        }
+        .lower-links:hover{
+            color: #c7511f;
+        }
+
+        /* boxes */
+        .boxes{
+            padding: 20px 0px;
+        }
+
+            .box-heading{
+                padding: 0px 20px;
+                margin-bottom: 10px;
+                font-size: 24px;
+                color: #0f1111;
+            }
+            .box-img-link{
+                height: 300px;
+                width: 260px;
+                margin: 0px 15px;
+                margin-bottom: 20px;
+            }
+            .sub-links div{
+                padding: 0px 20px;
+                width: 260px;
+            }
+
+            .row{
+                display: flex;
+                height: 420px;
+                margin-bottom: 20px;
+            }
+                .container{
+                    height: 420px;
+                    padding: 0px 10px;
+                }
+                .box{
+                    height: 380px;
+                    width: 290px;
+                    padding: 20px 0px;
+                    background-color: white;
+                }
+                
+                .box1{
+                    background-image: url("box1.jpg");
+                    background-size: cover;
+                }
+                .box2{
+                    background-image: url("box2.jpg");
+                    background-size: cover;
+                }
+                .box3{
+                    background-image: url("box3.png");
+                    background-size: cover;
+                }
+                .box4{
+                    background-image: url("box4.png");
+                    background-size: cover;
+                }
+
+            .row-lower{
+                display: flex;
+                height: 450px;
+                /* margin-bottom: 20px; */
+            }
+                .container-lower{
+                    height: 450px;
+                    padding: 0px 10px;
+                }
+                .box-lower{
+                    height: 410px;
+                    width: 290px;
+                    padding: 20px 0px;
+                    background-color: white;
+                }
+                .box5{
+                    background-image: url("box5.jpg");
+                    background-size: cover;
+                }
+                .box6{
+                    background-image: url("box6.jpg");
+                    background-size: cover;
+                }
+                .box7{
+                    background-image: url("box7.jpg");
+                    background-size: cover;
+                }
+                .box8{
+                    background-image: url("box8.jpg");
+                    background-size: cover;
+                }
+                
+
+        /* long boxes */
+        .long-container{
+            margin: 0px 10px;
+            background-color: white;
+            height: 320px;
+        }
+        .long-box{
+            padding: 10px 20px;
+            height: 300px;
+        }
+        .long-img{
+            margin-top: 10px;
+            height: 250px;
+        }
+        .long-box1{
+            background-image: url(long_box1.png);
+            background-size: cover;
+        }
+        .long-box2{
+            background-image: url(long_box2.png);
+            background-size: cover;
+        }
+        
+
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/      
+
+footer{
+    background-color: #0f1111;
+    height: 400px;
+}
+.footer-details{
+    height: 300px;
+    width: 250px
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    clear: left;
+    line-height: 25px;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+#back{
+    height: 15px;
+    background-color: #344451;
+    text-align: center;
+    padding: 15px 0px;
+}
+#back:hover{
+    background-color: #3d5263;
+}
+#about_us{
+    background-color: #1c262f;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-heading{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
